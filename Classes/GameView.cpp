@@ -51,6 +51,7 @@ bool GameView::init()
             addChild(card[i][j]);
         }
     }
+    
     //创建两个新卡片
     this->createCard();
     this->createCard();
